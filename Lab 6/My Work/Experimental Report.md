@@ -7,7 +7,7 @@ complete binary min-heap是满足下列三个条件的数据结构：
 # 数据结构设计
 由于该数据结构是一个完全树，因此可以考虑使用线性表来实现该数据结构。即如下图：
 
-![LCRS](..\Image\LCRS.png)
+![min_heap](..\Image\min_heap.png)
 
 这样，我们可以很简单的发现两个规律：
 
