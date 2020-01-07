@@ -102,6 +102,22 @@ void HashTable::show() {
 }
 
 int main() {
+/*
+    HashTable h;
+
+    unsigned int entry1=0b00000000 000111 000000000000 111000;//高6位：000111（7），低6位：111000（56）
+    unsigned int entry2=0b00000000 000111 100000000000 111000;//高6位：000111（7），低6位：111000（56）
+    unsigned int entry3=0b00000000 000111 110000000000 111000;//高6位：000111（7），低6位：111000（56）
+    unsigned int entry4=0b00000000 000111 111000000000 111000;//高6位：000111（7），低6位：111000（56）
+
+    h.hash_insert(entry1);
+    h.hash_insert(entry2);
+    h.hash_insert(entry3);
+    h.hash_insert(entry4);
+
+    return 0;
+
+*/
     srand(time(0));
     HashTable h;
 
@@ -114,8 +130,12 @@ int main() {
             cout<<"Can't insert the "<<entry<<endl;
 
     }
+
     cout<<endl;
     h.show();
+
+     return 0;
+
 
 }
 
